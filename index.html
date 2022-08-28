@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product configuration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+ 
+	<!--HEADER--> 
+<header class="header">  
+ <div class="top-bar ">
+	<div class="content">	 
+		<div class="left-align">  <p> <i class="fa-solid fa-envelope"></i> info@solidholz.de </p>
+			<p> <i class="fa fa-phone phone"></i> +49(0)2327-5846-9036620</p>
+   </div>
+	<div class="right-align"> 
+ <p >  <i class="fa-solid fa-truck-fast"></i>  
+	Versandkostenfrei -DE</p></div>
+</div>
+</div>
+
+<div class="header-main content">
+
+	<div class="left-align"> <img src="img/logo_solid.png" alt=""></p>
+		 </div>
+		<div class="main-right-align"> 
+		<input type="text" placeholder="Suche nach Produkten">
+		<i class="fa fa-cart-shopping"></i>
+ 		<div class="product-price">3.164,99</div>
+		</i> <i class="fa-regular fa-heart"></i>
+		</div>
+ 
+		   
+	</div>
+	<div class="navbar">
+		<ul>
+			<li>
+				STARTSEITE
+			</li>
+			<li>
+				ALLE MOBEL <i class=" allemobel fa-solid fa-chevron-down"></i>
+			</li>
+			<li>
+				POLSTERMOBEL<i class=" allemobel fa-solid fa-chevron-down"></i>
+			</li>
+			<li>
+				SCHRANKE/REGALE
+			</li>
+			<li>
+				BADMOBEL
+			</li>
+			<li>
+				KINDERMOBEL
+			</li>
+			<li>
+				LEUCHTEN
+			</li>
+			<li>
+				LEIMEHOLZPLATTEN
+			</li>
+			<li>
+				ALLE HERSTELER
+			</li>
+		</ul>
+	</div>	
+	 
+	<div class="sticky-bar" id="sticky-bar">
+		<div class="sticky_content">
+			<div class="sticky_product_name">
+				 
+					<div id="big-image-sticky">
+						<img    src="img/productimage1.jpg" width="100px" height="100px" alt="">
+					</div>	
+					<p>PROSTORIA <br>
+						STRAIN NIEDRIGER OVDE</p>		
+				</div>
+		<div class="product_information">
+			<p><span>Ihre auswahl:</span><br>Der niedrige Stuhl Strain ist ein Hybrid zwischen den Typologien eines Stuhls und eines Sessels. </p>
+			 
+		</div>
+		<div class="sticky_price">		 
+				<p class="product-price">3.164,99 €</p>
+				<p>Inkl. 19% MwSt. <br>
+					Lieferzeit: 6 bis 7 Wochen
+					
+					</p>
+			 </div>
+		<div class="sticky_add_to_cart">
+			<button id="addToCart" class="btn">IN DEN WARENKORB</button>
+	
+		</div>
+		</div>
+	</div>
+ 
+ 
+</header >
+<body> 
+<div class="container"> 
+<!-- MAIN  -->
+<div class="main">
+<!--LEFT SIDE -->
+<aside> 
+<div id="leftSide" class="left-side">
+	<div class="image-gallery">
+		<div id="big-image">
+			<img   src="img/productimage1.jpg" alt="">
+		</div>
+		<div id="sub">
+			<img src="img/productimg1.jpg" alt="">
+			 
+			<img src="img/productimg2.jpg" alt="">
+ 			<img src="img/productimg3-1.jpg" alt="">
+			 
+
+			<img src="img/productimg4.jpg" alt="">
+  		 
+
+		</div> 
+	</div>
+</div>
+</aside>
+<!-- -->
+<div class="right-side">
+
+	<div class="pInfo">
+		<div><p><a href=""></a>Startseite</a> / <a href=""></a>prostoria</a></p></div>
+		<div class="navigation">
+			<div id="newProduct"> 
+			<i class="fa-solid fa-angle-left"></i>
+			<i   class="fa-solid fa-box-tissue"></i>
+			<i class="fa-solid fa-angle-right"></i>
+		</div>
+		 
+		</div>
+
+	</div>
+
+
+
+	<div id="product-title" class="product-title">
+		<h2> PROSTORIA <br>STRAIN NIEDRIGER <br> </h2>
+		<div class=" divimageOnHover">
+			<img src="img/hoverImage.jpg" width="122px" height="122px" alt="">
+			<p>Next product</p>
+		  <p  class="product-price">1.164,99 €</p> 
+		</div>	
+ 	</div> 
+	<div id="product-price" class="product-price"><h3 class="price">3.164,99 €</h3></div>
+	<div class="product-inkl">
+		<p>Inkl. 19% MwSt.<br>
+			Lieferzeit: 6 bis 7 Wochen</p> 
+			 
+	</div>
+	<div class="description">
+		<p>Der niedrige Stuhl Strain ist ein Hybrid zwischen den Typologien eines Stuhls und eines Sessels. Er ist als Stuhl konzipiert, um auch in kleinere Innenräume zu passen, aber mit der Absicht, den Komfort eines Sessels aufrechtzuerhalten. So wurde eine minimalistische und funktionelle Armlehne entworfen. Er ist aber auch in einer armlehnenfreien Version erhältlich.</p>
+	</div>
+	<div class="row">	 
+		 
+		<div onclick="toogleClass(this)" id="toggleBtn"  class="pasiv-dropdown">ModelWahl</div>
+			 	 
+		<div class="radio" id="sub1">
+			<div class="column">
+
+			 
+			<img    class="img checked"  src="img/productimg1.jpg" alt="">
+			<img  class="img  " src="img/productimg2.jpg" alt="">
+			<img   class="img" src="img/productimg3.jpg" alt="">
+			<img   class="img" src="img/productimg4.jpg" alt="">		 
+			<div   class="radio-big-img" id="big-image1">
+				<img src="img/productimg1.jpg" alt="">
+			</div>
+		</div>
+			 
+		 
+
+		</div>
+
+ 	</div>
+	<br>
+ 	<div class="row">	 
+		 
+		<div onclick="toogleClass(this)" id="toggleBtn1"  class="pasiv-dropdown">Bezug</div>
+			 	 
+		<div class="radio radio1" id="sub2">
+			<div class="column">
+
+			 <div class="stoff-images">
+				<img  class="imgStoff checked"  src="img/patiof.png" alt="">
+				<img  class="imgStoff"  src="img/0110.png" alt="">
+				<img  class="imgStoff"  src="img/0140.PNG" alt="">
+				<img  class="imgStoff"  src="img/0150.PNG" alt="">
+				<img  class="imgStoff"  src="img/0170.PNG" alt="">
+				<img  class="imgStoff"  src="img/0200.PNG" alt="">
+				<img  class="imgStoff"  src="img/0210.PNG" alt="">
+				<img  class="imgStoff"  src="img/0220.PNG" alt="">
+				<img  class="imgStoff"  src="img/0230.PNG" alt="">
+				<img  class="imgStoff"  src="img/0340.PNG" alt="">
+				<img  class="imgStoff"  src="img/0370.PNG" alt="">
+				<img  class="imgStoff"  src="img/0410.PNG" alt="">
+				<img  class="imgStoff"  src="img/0430.PNG" alt="">
+				<img  class="imgStoff"  src="img/0440.PNG" alt="">
+				<img  class="imgStoff"  src="img/0450.PNG" alt="">
+				<img  class="imgStoff"  src="img/0550.PNG" alt="">
+				<img  class="imgStoff"  src="img/0570.PNG" alt="">
+				<img  class="imgStoff"  src="img/0650.PNG" alt="">
+				<img  class="imgStoff"  src="img/0730.PNG" alt="">
+				<img  class="imgStoff"  src="img/0740.PNG" alt="">
+				<img  class="imgStoff"  src="img/0750.PNG" alt="">
+				<img  class="imgStoff"  src="img/0780.PNG" alt="">
+				<img  class="imgStoff"  src="img/0840.PNG" alt="">
+				<img  class="imgStoff"  src="img/0970.PNG" alt="">
+				<img  class="imgStoff"  src="img/0100.PNG" alt="">
+			</div>
+				<div   class="radio-big-img big-stoff" id="big-image2">
+					<img  src="img/patiof.png" alt="">  
+				</div>
+					 
+				</div>
+			</div>
+		</div>
+			 
+		<div class="dynamicInfo">
+			 
+		</div>
+		 
+		<div class="qnty">
+			<div class="counter">
+				<button id="decreaseBtn">-</button>
+				<label id="countLabel">0</label>
+ 				<button id="increaseBtn">+</button>
+			</div>
+			<button id="addToCart" class="btn">IN DEN WARENKORB</button>
+		</div>
+
+		<div class="payments">
+			<p>Bezahlen Sie in 3-24 <br>	 monatlichen Raten.</p>
+			<button id="btn-paypall" class="btn-paypall">PayPal</button>
+			<p>The safer, esier way to pay</p>
+			<div class="category">
+				<br><hr>
+				<span>Kategorie:</span><a> Prostoria</a>
+				<br>
+				<span>Schlagwort:</span><a> Prostoria sessel</a>
+ 			</div>
+
+		</div>
+		</div><!--  //right-side -->
+	 
+	</div> <!-- //Main -->
+ 	<div class="product-description">
+		<hr>
+		<h2 class="title">Producte Information</h2>
+		<div class="infromation">
+			<span>Sitz	Massivholz: </span> <a> Massivholz + Kissen / Sperrholz / Sperrholz gepolsterter Sitz </a>
+		<br> <hr>	<span>Rückenpolster	Massivholz: </span> <a> 	Massivholz + Öl / Lack</a>
+			<hr><br><span>Beine: </span> <a>	Metallrohr Ø 16 mm + pulverbeschichte </a>
+			<hr>
+
+		</div>
+	 
+	</div> <!-- //product-description --><hr>
+
+
+
+
+
+<!-- 	relatable products -->	
+<div class="mainRelatable">
+	 
+<section>
+	 
+		<div class="product">
+			<picture>
+				<img src="img/productCarousel/delta.png" alt="">
+			</picture>
+			<div class="detail">
+				<p>
+					<b>Combo Schlafosofa</b><br>
+					<small>Prostoria</small>
+				</p>
+				<samp>$1245.00</samp>
+			</div>
+			<div class="button">
+				<p class="star">
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+				</p>
+				<a href="#">Add-cart</a>
+			</div>
+		</div>
+		<div class="product">
+			<picture>
+				<img src="img/productCarousel/3.png" alt="">
+			</picture>
+			<div class="detail">
+				<p>
+					<b>Absent Sofa</b><br>
+					<small>Prostoria</small>
+				</p>
+				<samp>$45.00</samp>
+			</div>
+			<div class="button">
+				<p class="star">
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+				</p>
+				<a href="#">Add-cart</a>
+			</div>
+		</div>
+		<div class="product">
+			<picture>
+				<img src=" img/productCarousel/2.png" alt="">
+			</picture>
+			<div class="detail">
+				<p>
+					<b>Klaster Schlafsofa</b><br>
+					<small>Prostoria</small>
+				</p>
+				<samp>$45.00</samp>
+			</div>
+			<div class="button">
+				<p class="star">
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+				</p>
+				<a href="#">Add-cart</a>
+			</div>
+		</div>
+		<div class="product">
+			<picture>
+				<img src="img/productCarousel/nokia.png" alt="">
+			</picture>
+			<div class="detail">
+				<p>
+					<b>Elegance Sofa</b><br>
+					<small>Prostoria</small>
+				</p>
+				<samp>$45.00</samp>
+			</div>
+			<div class="button">
+				<p class="star">
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+				</p>
+				<a href="#">Add-cart</a>
+			</div>
+		</div>
+		<div class="product">
+			<picture>
+				<img src="img/productCarousel/nokia-air.png" alt="">
+			</picture>
+			<div class="detail">
+				<p>
+					<b>Product Ten</b><br>
+					<small>New arrival</small>
+				</p>
+				<samp>$45.00</samp>
+			</div>
+			<div class="button">
+				<p class="star">
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+				</p>
+				<a href="#">Add-cart</a>
+			</div>
+		</div>
+		<div class="product">
+			<picture>
+				<img src="img/productCarousel/3.png" alt="">
+			</picture>
+			<div class="detail">
+				<p>
+					<b>Product Eleven</b><br>
+					<small>New arrival</small>
+				</p>
+				<samp>$45.00</samp>
+			</div>
+			<div class="button">
+				<p class="star">
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+				</p>
+				<a href="#">Add-cart</a>
+			</div>
+		</div>
+		<div class="product">
+			<picture>
+				<img src="img/productCarousel/one.png" alt="">
+			</picture>
+			<div class="detail">
+				<p>
+					<b>Product Twelve</b><br>
+					<small>New arrival</small>
+				</p>
+				<samp>$45.00</samp>
+			</div>
+			<div class="button">
+				<p class="star">
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+					<strong>&star;</strong>
+				</p>
+				<a href="#">Add-cart</a>
+			</div>
+		</div>
+	</section>
+ 
+ 	</div>
+</div>
+
+
+</div>
+
+</div>
+ 
+</body>
+
+ 
+
+<!-- FOOTER -->
+<footer>
+	<div class="container">
+		<div class="content_footer">	
+			<div class="profil">
+				<div class="logo_area">
+<!-- 					<img src="img/logo_solid.png" alt="">
+ -->					<span class="logo_name">SolidHolz</span>
+ 				</div>
+				<div class="desc_area">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sapiente, provident dolore sit quibusdam cupiditate accusantium illum aspernatur magnam rem, ea vero eius suscipit obcaecati vitae at veniam nihil. Repellendus?</p>
+					</div>
+					<div class="social_media">
+						<a href=""><i class='bx bxl-linkedin-square'></i></a>
+						<a href=""><i class='bx bxl-facebook-square'></i></a>
+						<a href=""><i class='bx bxl-instagram-alt'></i></a>
+						<a href=""><i class='bx bxl-github'></i></a>
+					</div>
+ 		</div>
+		<div class="service_area">
+			<ul class="service_header">
+				 
+					<li class="service_name">Services</li>
+					<li><a href="">IT Consulting</a></li>
+					<li><a href="">Development</a></li>
+					<li><a href="">Cloud</a></li>
+					<li><a href="">DevOps & Support</a></li>
+				 
+			</ul>
+
+			<ul class="service_header">
+			 
+					<li class="service_name">Industries</li>
+					<li><a href="">Finance</a></li>
+					<li><a href="">Public Sector</a></li>
+					<li><a href="">Smart Office</a></li>
+					<li><a href="">Retail</a></li>
+				 
+			</ul>
+
+			<ul class="service_header">
+				 
+					<li class="service_name">Company</li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Join Us</a></li>
+				 
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<div class="footer_bottom">
+		<div class="copy_right">
+			<i class="bx bxs-copyright"></i>
+			<span>2021 By Me</span>
+		</div>
+		<div class="tou">
+			<a href="">Term of Use</a>
+			<a href="">Privacy Policy</a>
+			<a href="Cookie"></a>
+		</div>
+	</div>
+</div>
+	
+</footer>
+<!-- ADD JAVASCRIPT -->
+<script type="text/javascript" >
+	window.addEventListener("scroll", function(){ 
+		var sticky = document.getElementById("leftSide");
+		sticky.classList.toggle("sticky", window.scrollY >0);
+		//console.log(sticky)
+ 	})
+
+
+
+	 var elements= document.getElementsByClassName("child");
+	 for (var i = 0; i<elements.length; i++){
+		elements[i].onclick=function(){
+		 
+ 			//add
+			var el = elements[0];
+			while(el){
+				if(el.tagName==="LI"){
+					el.classList.remove("hide");
+				}
+				el = el.nextSibling;
+			}//remove class
+			this.classList.add("hide");
+
+		}
+	 }
+/* 	CHECKED MATERIALS */
+
+
+var checkedElement= document.getElementsByClassName("img");
+	 for (var i = 0; i<checkedElement.length; i++){
+		checkedElement[i].onclick=function(){
+		 
+ 			//add
+			var el = checkedElement[0];
+			while(el){
+				if(el.tagName==="IMG"){
+					el.classList.remove("checked");
+				}
+				el = el.nextSibling;
+			}//remove class
+			this.classList.add("checked");
+
+		}
+	 }
+
+
+	 var checkedStoff= document.getElementsByClassName("imgStoff");
+	 for (var i = 0; i<checkedStoff.length; i++){
+		checkedStoff[i].onclick=function(){
+		 
+ 			//add
+			var el = checkedStoff[0];
+			while(el){
+				if(el.tagName==="IMG"){
+					el.classList.remove("checked");
+				}
+				el = el.nextSibling;
+			}//remove class
+			this.classList.add("checked");
+
+		}
+	 }
+ 
+ 
+/* 	 <!--DESCRIPTION INFORAMTION HIDE UND UNHIDE--> */ 
+ 
+ </script>
+	<script src="script.js"></script>
+</body>
+</html>
